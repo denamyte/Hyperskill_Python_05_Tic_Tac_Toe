@@ -97,7 +97,7 @@ files:
 
             for line in lines:
                 if len(line) != 9:
-                    raise WrongAnswerException(
+                    raise WrongAnswer(
                         f"Line of Tic-Tac-Toe field should be 9 characters long\n"
                         f"found {len(line)} characters in \"{line}\"")
                 for c in line:
@@ -258,5 +258,8 @@ files:
         TicTacToeTest('tictactoe.tictactoe').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/73/stages/402/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 31 Jan 2021 16:18:02 UTC
 record: -1
